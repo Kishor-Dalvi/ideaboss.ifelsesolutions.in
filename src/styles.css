@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.main-container{
+    padding-left:65px;
+    padding-right:65px;
+}
+#header-menu{
+    display: block;
+    color: #FFF;
+  }
+
+  .contact-us{
+    width:370px;
+    height:200px;
+    background: #F6EEFF;
+    border-radius: 10px;
+    }
+    .agri-text{
+      font-family: 'Haettenschweiler';
+      font-style: normal;
+      font-weight: 400;
+      font-size:85px;
+      line-height: 102px;
+      color: #4E2B7D;
+  }
+
+@media only screen and (max-width: 600px) {
+    #header-menu{
+      display: none;
+      color: #FFF;
+    }
+    .contact-us{
+      margin-top: 10px;
+      width: auto;
+      height:200px;
+      background: #F6EEFF;
+      border-radius: 10px;
+      }
+      .agri-text{
+        font-size: 60px;
+      }
+  }

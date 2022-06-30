@@ -1,0 +1,21 @@
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+ .toolbar-style{
+  padding-left: 50px;
+  padding-right: 50px;
+ }
+
+ .container{
+  padding: 15px;
+ }
+ .ideaboss-heading{
+  margin-left: 10px;
+ }
+ a{
+  color: #FFF;
+  text-decoration: none;
+ }
+ 
